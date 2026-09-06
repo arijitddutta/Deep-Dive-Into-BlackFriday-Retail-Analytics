@@ -1,0 +1,47 @@
+# ---- Secrets ----
+.env
+*.env
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Data (uncomment if raw/processed data shouldn't be versioned) ----
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# ---- Large / generated BI files (uncomment if they exceed GitHub's limits) ----
+# dashboards/**/*.pbix
+# dashboards/**/*.twbx
+
+# ---- Logs & temp ----
+*.log
+*.tmp
