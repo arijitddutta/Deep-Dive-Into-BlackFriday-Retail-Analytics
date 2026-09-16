@@ -2,8 +2,6 @@
 
 **An end-to-end retail analytics project** — from raw CSV to a validated SQL data model, statistical hypothesis testing, an interactive Power BI dashboard, and a stakeholder-ready set of strategic recommendations.
 
-> Career247 — *Data Analytics with GenAI* Capstone Project
-> Role: Data Analytics Consultant, Retail Analytics Center of Excellence
 
 ![Dashboard Home](assets/dashboard_home.png)
 
