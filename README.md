@@ -244,35 +244,17 @@ cp .env.example .env           # then fill in your DB credentials
 ```
 
 **Database setup** — run the SQL scripts in order:
-
+create sql databse
 ```bash
-mysql -u root -p < sql/ddl/01_create_staging.sql
 # load the CSV into staging via the notebook's ingestion cell
 mysql -u root -p < sql/ddl/02_create_black_friday_data.sql
 mysql -u root -p < sql/migration/staging_to_final.sql
 mysql -u root -p < sql/ddl/03_create_views.sql
 ```
 
-Credentials are read from `.env` — never hardcoded:
 
-```python
-import os
-from dotenv import load_dotenv
-from sqlalchemy import create_engine, URL
 
-load_dotenv()
-url = URL.create(
-    drivername="mysql+pymysql",
-    username=os.getenv("DB_USER"),
-    password=os.getenv("DB_PASSWORD"),
-    host=os.getenv("DB_HOST"),
-    port=int(os.getenv("DB_PORT", 3306)),
-    database=os.getenv("DB_NAME"),
-)
-engine = create_engine(url)
-```
 
----
 
 ## Author
 
