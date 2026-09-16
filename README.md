@@ -44,10 +44,10 @@ Leadership needed answers to four questions:
 | Transactions | 550,068 |
 | Unique customers | 5,891 |
 | Unique products | 3,631 |
-| Total sales | ₹5,095,812,742 (~₹5.10bn) |
-| Average purchase | ₹9,263.97 |
-| Median purchase | ₹8,047.00 |
-| Purchase range | ₹12 – ₹23,961 |
+| Total sales | $5,095,812,742 (~₹5.10bn) |
+| Average purchase | $9,263.97 |
+| Median purchase | $8,047.00 |
+| Purchase range | $12 – $23,961 |
 | Fields | 12 (demographics, product categories, purchase amount) |
 
 ---
@@ -122,7 +122,7 @@ Male customers drive **76.72%** of revenue; the 26–35 age group contributes **
 
 ![Age × Category Heatmap](assets/heatmap_age_category.png)
 
-> **On outliers:** 0.49% of transactions (2,677 rows) exceed the IQR upper bound of ₹21,400 — but a z-score test (`|z| > 3`) flags **zero** rows, and 85% of the flagged rows belong to a single premium category where they represent 44% of its volume. These were **retained and flagged** as a high-value indicator, not removed as errors.
+> **On outliers:** 0.49% of transactions (2,677 rows) exceed the IQR upper bound of $21,400 — but a z-score test (`|z| > 3`) flags **zero** rows, and 85% of the flagged rows belong to a single premium category where they represent 44% of its volume. These were **retained and flagged** as a high-value indicator, not removed as errors.
 
 ---
 
