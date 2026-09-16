@@ -44,7 +44,7 @@ Leadership needed answers to four questions:
 | Transactions | 550,068 |
 | Unique customers | 5,891 |
 | Unique products | 3,631 |
-| Total sales | $5,095,812,742 (~₹5.10bn) |
+| Total sales | $5,095,812,742 (~$5.10bn) |
 | Average purchase | $9,263.97 |
 | Median purchase | $8,047.00 |
 | Purchase range | $12 – $23,961 |
